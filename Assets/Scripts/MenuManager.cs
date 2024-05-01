@@ -30,7 +30,7 @@ public class MenuManager : MonoBehaviour
     {
         inputName = GameObject.Find("Canvas/InputField").GetComponent<InputField>();
         playerName = inputName.text;
-        scoreText = GameObject.Find("Canvas/ScoreText").GetComponent<Text>();
+        scoreText = GameObject.Find("Canvas/BestScoreText").GetComponent<Text>();
         UpdateScore();
     }
 
